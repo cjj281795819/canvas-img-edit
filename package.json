@@ -1,0 +1,45 @@
+{
+  "name": "canvas_photo",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "antd": "^4.0.0",
+    "customize-cra": "^0.9.1",
+    "react": "^16.13.0",
+    "react-app-rewired": "^2.1.5",
+    "react-dom": "^16.13.0",
+    "react-scripts": "3.4.0",
+    "styled-components": "^5.0.1",
+    "typescript": "^3.8.3"
+  },
+  "scripts": {
+    "dev": "react-app-rewired start",
+    "build": "react-app-rewired build"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "@testing-library/jest-dom": "^4.2.4",
+    "@testing-library/react": "^9.3.2",
+    "@testing-library/user-event": "^7.1.2",
+    "@types/jest": "^24.0.0",
+    "@types/node": "^13.11.1",
+    "@types/react": "^16.9.0",
+    "@types/react-dom": "^16.9.0",
+    "@types/styled-components": "^5.0.1",
+    "babel-plugin-import": "^1.13.0"
+  }
+}
